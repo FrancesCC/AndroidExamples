@@ -25,8 +25,6 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         //setContentView(R.layout.activity_main_linear);
         setContentView(R.layout.activity_main_relative);
 
-
-
         Button btn = findViewById(R.id.button1);
         btn.setOnClickListener(
                 new View.OnClickListener(){
